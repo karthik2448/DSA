@@ -1,7 +1,10 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     string removeOuterParentheses(string s) {
-         string result = "";
+        string result = "";
     int balance = 0;
 
     for (char c : s) {
